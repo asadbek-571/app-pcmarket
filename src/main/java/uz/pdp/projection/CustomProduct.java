@@ -8,16 +8,16 @@ import javax.persistence.Column;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 
-@Projection(types = Product.class)
+//@Projection(types = Product.class)
 public interface CustomProduct {
 
-    Long getId();
-
-    String getName();
-
-    Long getPrice();
-
-    boolean getActive();
-
-    Category getCategory();
+//    Long getId();
+//
+//    String getName();
+//
+//    Long getPrice();
+//
+//    boolean getActive();
+//
+//    Category getCategory();
 }
